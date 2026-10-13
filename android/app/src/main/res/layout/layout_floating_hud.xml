@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/hud_root"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/bg_floating_hud"
+    android:paddingStart="8dp"
+    android:paddingEnd="16dp"
+    android:paddingTop="6dp"
+    android:paddingBottom="6dp"
+    android:gravity="center_vertical"
+    android:elevation="16dp">
+
+    <!-- 3D Girl Avatar Image -->
+    <ImageView
+        android:id="@+id/hud_character_avatar"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="8dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter" />
+
+    <!-- Counter Text -->
+    <TextView
+        android:id="@+id/hud_counter_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:fontFamily="monospace" />
+
+    <!-- Platform Label -->
+    <TextView
+        android:id="@+id/hud_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:text="REELS"
+        android:textColor="#00FF66"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+    <!-- Mood / Status Text -->
+    <TextView
+        android:id="@+id/hud_mood_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:text="CHILL"
+        android:textColor="#00FF66"
+        android:textSize="9sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

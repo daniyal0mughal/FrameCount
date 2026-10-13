@@ -93,11 +93,25 @@ Short-form video algorithms intentionally eliminate clocks and friction to induc
 
 ---
 
-## 🚀 Installation & Setup
+## 📥 1-Click Direct Download (No Coding Required)
 
-### Prerequisites
-- Android device running **Android 8.0 (API 26)** or higher.
-- [Flutter SDK](https://flutter.dev/docs/get-started/install) installed.
+You can install FrameCount directly on any Android phone without setting up Flutter or Android Studio:
+
+<div align="center">
+
+[![Download APK](https://img.shields.io/badge/⬇️_Download_APK-FrameCount_v1.0.0-10B981?style=for-the-badge&logo=android&logoColor=white)](https://github.com/daniyal0mughal/FrameCount/releases/latest)
+
+</div>
+
+### Quick Installation:
+1. Tap the green **[Download APK](https://github.com/daniyal0mughal/FrameCount/releases/latest)** button above (or download `app-release.apk` from the **[Releases Section](https://github.com/daniyal0mughal/FrameCount/releases)**).
+2. Tap the downloaded file on your Android device and select **Install** *(if prompted, tap Settings → Allow from this source)*.
+3. Open **FrameCount** and tap **ACTIVATE NOW** to enable the accessibility service.
+4. Launch Instagram Reels, TikTok, or YouTube Shorts — your 3D companion will appear automatically!
+
+---
+
+## 🚀 Development & Build Instructions
 
 ### 1. Clone the Repository
 ```bash
